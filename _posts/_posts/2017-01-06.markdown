@@ -1,8 +1,0 @@
----
-layout:post
-titil: "code test"
-categories: jekyll updata
----
-
-i love you[Jekyll_docs][jekyll-docs]
-[jekyyll-docs]:http://zhihu.com
