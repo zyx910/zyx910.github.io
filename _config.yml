@@ -1,15 +1,15 @@
 # Dependencies
 markdown:         redcarpet
-highlighter:      pygments
+highlighter:      rouge
 
 # Permalinks
-permalink:        pretty
-relative_permalinks: true
+# permalink:        pretty
+# relative_permalinks: true
 
 # Setup
-title:            Hyde
+title:            Journay
 tagline:          'A Jekyll theme'
-description:      'A brazen two-column <a href="http://jekyllrb.com" target="_blank">Jekyll</a> theme that pairs a prominent sidebar with uncomplicated content. Made by <a href="https://twitter.com/mdo" target="_blank">@mdo</a>.'
+description:      'Welcome. Made by <a href="https://zhuanlan.zhihu.com" target="_blank">@Zacks</a>.'
 url:              http://hyde.getpoole.com
 baseurl:          /
 
