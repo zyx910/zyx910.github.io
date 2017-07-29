@@ -1,0 +1,29 @@
+---
+layout: "post"
+title: "Blob.cpp"
+date: "2017-07-29 14:23"
+---
+
+```cpp
+#include <iostream>
+#include <vector>
+#include <algorithm>
+#include <memory>
+template<typename T> Blobptr;
+template <typename T>class Blob{
+friend class Blobptr<T>;
+public:
+    Blobptr<T> begin();
+    Blobptr<T> end()
+    using size_type = typename std::vector<T>::size_type;
+    Blob();
+    Blob(const Blob &rhs):data(make_shared<std::vector<T> (rhs.data)){};
+    
+    size_type size()const {return data->size();}
+    void push_back(T &item){ data->push_back(item);}
+
+private:
+    std::shared_ptr<std::vector<T>> data;
+    void check(size_type, std::shared_ptr<std::vector<T>&;)    
+}
+```
